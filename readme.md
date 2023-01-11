@@ -6,3 +6,20 @@ void is the **return type of the fucntion**.**Return type** means that when the 
 # **main() function**
 
 The _main() function_ is a predefined method in dart.It is important and mendetory part.The method acts as the entry point for any dart application.
+
+#### **Store your name into a variable and print**
+
+    void main(List<String> args) {
+    String name = "Tripti";
+    print(name);
+    }
+
+#### **Join two variables and print**
+
+
+    void main(List<String> args) {
+    String first_name = "Ridwana";
+    String second_name = "Tripti";
+
+    print(first_name + " " + second_name);
+    }
